@@ -1,46 +1,48 @@
-# Bookmark Organizer (Project Archive)
+# [ARCHIVED] Bookmark Organizer
 
-## Project Status
-This project is currently archived. It was an experimental attempt to create an AI-powered bookmark organization tool using local LLM capabilities.
+## ⚠️ Project Status: DISCONTINUED / ARCHIVED
+This project has been discontinued and is now archived. It was an experimental prototype for an AI-powered bookmark organization tool that was not completed. No further development is planned.
 
 ## Project Overview
-- **Goal**: Create a smart bookmark organizer with AI categorization
+- **Goal**: *(Unrealized)* Create a smart bookmark organizer with AI categorization
 - **Stack**: Python, FastAPI, Streamlit, SQLite, Ollama
-- **Status**: Development paused
+- **Status**: Discontinued
 - **Last Updated**: February 2024
+- **Development Status**: Incomplete Prototype
 
-## Components Implemented
-- Browser bookmark parser
-- FastAPI backend structure
-- Streamlit frontend interface
-- Initial AI categorization system
+## Repository Purpose
+This repository remains public for:
+- Reference purposes only
+- Educational value
+- Historical documentation
 
-## Future Development Notes
-For anyone interested in continuing this project, consider:
-1. Implementing the revised architecture from the technical specification
-2. Using a hybrid categorization approach (pattern matching + keywords + LLM)
-3. Adding Floccus integration for browser synchronization
-4. Improving the frontend with React/TypeScript
+## Note to Visitors
+This codebase is incomplete and non-functional. It is not recommended for:
+- Production use
+- Further development
+- Learning best practices
 
-## Repository Structure
+## Original Planned Features (Unrealized)
+- Browser bookmark parsing and import
+- AI-powered categorization using local LLM
+- Hierarchical organization system
+- Tag-based organization
+- Search functionality
+- Browser synchronization
+
+## Repository Contents
 ```
 bookmark_organizer/
-├── src/
-│   ├── frontend/     # Streamlit UI
-│   ├── backend/      # FastAPI server
-│   ├── agents/       # AI categorization
-│   └── parsers/      # Bookmark parsers
-├── tests/            # Test suite
-└── README.md         # This file
+├── src/             # Incomplete source code
+├── tests/           # Unfinished test suite
+└── docs/            # Project documentation
 ```
-
-## Getting Started
-1. Install dependencies: `pip install -r requirements.txt`
-2. Start backend: `python src/backend/app.py`
-3. Start frontend: `streamlit run src/frontend/app.py`
 
 ## License
 MIT License
 
-## Contact
-This project is archived. For questions about the implementation or architecture, refer to the technical documentation.
+## Final Status
+This project was discontinued during early development. The code remains as-is for archival purposes only. No support or updates will be provided.
+
+---
+*This project was archived on February 2024*
