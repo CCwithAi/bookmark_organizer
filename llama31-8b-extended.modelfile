@@ -1,0 +1,8 @@
+FROM llama3.1:8b
+
+# Increase context length
+PARAMETER num_ctx 8192
+
+# Performance optimizations
+PARAMETER num_gpu 1
+PARAMETER num_thread 8
